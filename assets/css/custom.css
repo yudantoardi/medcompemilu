@@ -82,6 +82,10 @@ hr{
     width: 100%;
     float: left;
 }
+.breadcrumb{
+    border-bottom: 1px solid #dedede;
+    margin-bottom: 30px;
+}
 
 
 /*HOME - PROFIL CALEG*/

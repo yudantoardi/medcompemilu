@@ -1,16 +1,8 @@
 /*
-	Template Name: Digiqole - News Magazine Newspaper HTML5 Template
-	Author: Tripples
-	Author URI: https://themeforest.net/user/tripples
-	Description: Digiqole - News Magazine Newspaper HTML5 Template
-	Version: 1.1
-	1. Main slideshow
-	2. Site search
-	3. Owl Carousel
-	4. Video popup
-	5. Contact form
-	6. Back to top
-  
+	 Template Name: Medcom Pemilu 2024
+	 Author: Yudantoardi
+	 Author URI: instagram.com/yudantoardi_studio
+	 Version: 1.1
 */
 
 

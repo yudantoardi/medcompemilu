@@ -1,0 +1,375 @@
+.ratio{
+    width: 100%;
+    height: 0;
+    position: relative;
+}
+.ratio-16{
+    padding-top: 56.25%;
+}
+.ratio-1{
+    padding-top: 100%;
+}
+.ratio-75{
+    padding-top: 75%;
+}
+.ratio-135{
+    padding-top: 135%;
+}
+.ratio img,
+.ratio iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.is-circle{
+    border-radius: 50%;
+    -moz-border-radius: 50%;
+    -webkit-border-radius: 50%;
+    overflow: hidden;
+}
+
+.btn{
+    min-width: 120px;
+    padding: 8px 20px;
+    font-size: 14px;
+    font-weight: 500;
+}
+.btn-primary{
+    background: #026B33;
+    color: #fff;
+    border: none;
+}
+.btn-secondary{
+    background: none;
+    border: 2px solid #026B33;
+    color: #026B33;
+}
+.btn-orange{
+    background: #F6AB1E;
+    color: #292A63;
+}
+.boxed{
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    z-index: -1;
+    background: url(../images/custom/body-bg.jpg) no-repeat center top;
+    background-size: contain;
+}
+.boxed .boxed-bg{
+    width: calc(100% + 80px);
+    height: 100vh;
+    background: #fff;
+    box-shadow: 0 0 64px rgba(0,0,0,0.15);
+    -moz-box-shadow: 0 0 64px rgba(0,0,0,0.15);
+    -webkit-box-shadow: 0 0 64px rgba(0,0,0,0.15);
+    margin-left: -40px;
+}
+ul.navbar-nav > li.active > a{
+    color: #F6AB1E;
+}
+hr{
+    width: 100%;
+    float: left;
+}
+
+
+/*HOME - PROFIL CALEG*/
+    .custom-box-1{
+        width: calc(100% - 8px);
+        float: left;
+        background: url(../images/custom/bg-profil-caleg.jpg) no-repeat center;
+        background-size: cover;
+        padding: 20px;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    .custom-box-1 .pic{
+        width: 140px;
+        float: left;
+    }
+    .custom-box-1 .text{
+        width: calc(100% - 140px);
+        float: left;
+        padding-left: 20px;
+    }
+    .custom-box-1 .text h3{
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+    .custom-box-1 .text h3 a{
+        color: #fff;
+    }
+    .partai{
+        width: 100%;
+        float: left;
+        padding-left: 40px;
+        position: relative;
+        height: 30px;
+        margin-bottom: 20px;
+        color: #fff;
+        font-size: 14px;
+        padding-top: 4px;
+        font-weight: 500;
+    }
+    .partai img{
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        border: 1px solid #fff;
+    }
+    .prof-news{
+        width: 100%;
+        float: left;
+        margin-bottom: 20px;
+    }
+    .prof-news .item{
+        width: 50%;
+        float: left;
+        padding-right: 20px;
+    }
+    .prof-news .item h4{
+        font-size: 14px;
+        line-height: 150%;
+    }
+    .prof-news .item h4 a{
+        color: #fff;
+    }
+    .other-caleg{
+        width: 100%;
+        float: left;
+        padding: 20px 0 0;
+        border-top: 1px solid rgba(255,255,255,0.3);
+    }
+    .other-caleg .item{
+        width: 30px;
+        float: left;
+        margin-right: 10px;
+    }
+    .other-caleg .item figure{
+        margin-bottom: 0;
+    }
+    .other-caleg .small-title{
+        float: left;
+        color: #fff;
+        font-size: 14px;
+        font-weight: 700;
+        margin-right: 10px;
+        padding-top: 2px;
+    }
+
+    @media only screen and (max-width: 991px){
+        .custom-box-1{
+            width: 100%;
+        }
+    }
+/*HOME - PROFIL CALEG END*/
+
+/*HOME - PROFIL PARTAI*/
+    .custom-box-2{
+        width: calc(100% - 8px);
+        float: left;
+        padding: 20px;
+        background: #16174B;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    .custom-box-2 .block-title a{
+        float: right;
+        font-size: 14px;
+        color: #fff;
+        text-transform: none;
+        font-weight: 400;
+    }
+    .custom-box-2 h4{
+        font-size: 14px;
+        margin-bottom: 3px;
+    }
+    .custom-box-2 h4 a{
+        color: #fff;
+    }
+    @media only screen and (max-width: 991px){
+        .custom-box-2{
+            width: 100%;
+        }
+    }
+/*HOME - PROFIL PARTAI END*/
+
+/*HOME - EXTRA NEWS*/
+    .extra-news .list-post li:first-child .media{
+        display: block;
+    }
+    .extra-news .list-post li:first-child{
+        margin-bottom: 20px;
+    }
+    .extra-news .list-post li:first-child .post-thumb.thumb-md{
+        width: 100%;
+        height: auto;
+        margin-bottom: 10px;
+    }
+    .extra-news .list-post li:first-child .media-body{
+        flex: none;
+        width: 100%;
+    }
+/*HOME - EXTRA NEWS*/
+
+/*HOME - POLLING*/
+    .custom-box-3{
+        width: 100%;
+        float: left;
+        padding: 20px;
+        background: #292A63;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+    .custom-box-3 h2{
+        color: #fff;
+    }
+    .custom-box-3 p{
+        color: rgba(255,255,255,0.8);
+    }
+    .custom-box-3 .inp-group.with-bg{
+        padding: 10px 20px;
+        background: rgba(255,255,255,0.1);
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+        margin-bottom: 10px;
+    }
+    .custom-box-3 .inp-group.with-bg label{
+        color: #fff;
+        margin-bottom: 0;
+    }
+    .custom-box-3 .inp-group.with-bg input{
+        margin-right: 10px;
+    }
+/*HOME - POLLING END*/
+
+/*HOME - VIDEO*/
+    #trending-slider .play-bt{
+        width: 40px;
+        height: 40px;
+        border: 1px solid #fff;
+        color: #fff;
+        text-align: center;
+        padding-top: 8px;
+        font-size: 18px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        position: absolute;
+        left: 20px;
+        top: 20px;
+        background: rgba(0,0,0,0.3);
+    }
+    #trending-slider .play-bt i{
+        margin-left: 3px;
+    }
+/*HOME - VIDEO END*/
+
+/*FOOTER*/
+.ts-copyright{
+    background: #d9d9d9;
+}
+.foot-menu{
+    text-align: right;
+}
+.foot-menu a{
+    margin-left: 20px;
+    color: #333;
+}
+/*FOOTER END*/
+
+/*SKYCRAPPER*/
+    .skycrapper{
+        width: 100vw;
+        height: 100vh;
+        z-index: 3;
+        position: fixed;
+        top: 0;
+        left: 0;
+        pointer-events: none;
+    }
+    .skycrapper .sky{
+        width: 160px;
+        height: 600px;
+        overflow: hidden;
+        position: absolute;
+        top: 280px;
+        transition: all ease-out 0.3s;
+        -moz-transition: all ease-out 0.3s;
+        -webkit-transition: all ease-out 0.3s;
+    }
+    .skycrapper.scrolled .sky{
+        top: 100px;
+        pointer-events: auto;
+    }
+    .skycrapper .sky:first-child{
+        right: calc(100vw - ((100vw - 1240px) / 2));
+    }
+    .skycrapper .sky:last-child{
+        left: calc(100vw - ((100vw - 1240px) / 2));
+    }
+    @media only screen and (max-width: 991px){
+       .skycrapper{
+        display: none;
+       }
+    }
+/*SKYCRAPPER END*/
+
+/*DETAIL - SHARE LIST*/
+    .tag-lists{
+        width: 60%;
+        float: left;
+    }
+    .share-lists{
+        width: 40%;
+        float: left;
+        text-align: right;
+    }
+    .share-lists a{
+        width: 34px;
+        height: 34px;
+        background: #4C658B;
+        text-align: center;
+        padding-top: 5px;
+        border-radius: 50%;
+        -moz-border-radius: 50%;
+        -webkit-border-radius: 50%;
+        margin-left: 6px;
+        display: inline-block;
+        color: #fff;
+    }
+    .share-lists a.fb{
+        background: #425894; /*Facebook*/
+    }
+    .share-lists a.tw{
+        background: #4DA9E7; /*Twitter*/
+    }
+    .share-lists a.yt{
+        background: #FF0103; /*Youtube*/
+    }
+    .share-lists a.tg{
+        background: #63A7E3; /*Telegram*/
+    }
+    .share-lists a.wa{
+        background: #6EC169; /*Whatsapp*/
+    }
+    .share-lists a.ln{
+        background: #01D409; /*Line*/
+    }
+    .share-lists a.li{
+        background: #2767AF; /*Linkedin*/
+    }
+/*DETAIL - SHARE LIST END*/

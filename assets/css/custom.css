@@ -87,6 +87,51 @@ hr{
     margin-bottom: 30px;
 }
 
+.grid{
+    width: 100%;
+    float: left;
+    position: relative;
+}
+.grid .item{
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+.grid.grid-5 .item{
+    width: calc((100% - 80px) / 5);
+}
+.grid.grid-5 .item:nth-child(5n){
+    margin-right: 0;
+}
+
+.pagination{
+    width: 100%;
+    float: left;
+    text-align: center;
+    display: block;
+}
+.pagination a{
+    display: inline-block;
+    padding: 3px 10px;
+}
+.pagination a.active{
+    background: #DB8E5B;
+    border-radius: 6px;
+    -moz-border-radius: 6px;
+    -webkit-border-radius: 6px;
+    color: #fff;
+}
+
+.post-cat{
+    padding: 0 10px !important;
+    background: rgba(0,0,0,0.1);
+    color: #333;
+}
+.post-cat:hover{
+    color: #333;
+    box-shadow: 0 3px 9px rgba(0,0,0,0.2);
+    background: #fff;
+}
 
 /*HOME - PROFIL CALEG*/
     .custom-box-1{
@@ -384,3 +429,148 @@ hr{
         background: #2767AF; /*Linkedin*/
     }
 /*DETAIL - SHARE LIST END*/
+
+/*PARTAI*/
+    .indexing-header{
+        width: 100%;
+        float: left;
+        padding: 70px 30px;
+        background: url(../images/indexing-header-bg.jpg) no-repeat center;
+        background-size: cover;
+    }
+    .indexing-header form{
+        width: 100%;
+        margin: 0 auto;
+        background: #fff;
+        border-radius: 4px;
+        -moz-border-radius: 4px;
+        -webkit-border-radius: 4px;
+        height: 60px;
+        padding: 10px;
+    }
+    .indexing-header form.src-partai{
+        max-width: 734px;
+    }
+    .indexing-header form select{
+        width: 180px;
+        float: left;
+        height: 40px;
+        border: none;
+        background: none;
+        border-right: 1px solid #dedede;
+        padding: 0 10px;
+    }
+    .indexing-header form.src-partai input{
+        width: calc(100% - 310px);
+        float: left;
+        height: 40px;
+        padding: 0 20px;
+        background: #fff;
+        border: none;
+    }
+    .indexing-header form button{
+        width: 130px;
+        height: 40px;
+        float: left;
+        background: #4d4076;
+        color: #fff;
+        font-size: 14px;
+        border: none;
+        border-radius: 5px;
+        -moz-border-radius: 5px;
+        -webkit-border-radius: 5px;
+    }
+
+    .list-partai .item,
+    .list-caleg .item{
+        border: 1px solid #dedede;
+        padding: 30px 30px 60px 30px;
+        text-align: center;
+        position: relative;
+        transition: all ease-out 0.3s;
+        box-shadow: 0 4px 32px rgba(0,0,0,0);
+    }
+    .list-partai .item img,
+    .list-caleg .item img{
+        transition: all ease-out 0.3s;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+    }
+    .list-partai .item:hover,
+    .list-caleg .item:hover{
+        box-shadow: 0 4px 32px rgba(0,0,0,0.15);
+        border-color: #fff;
+    }
+    .list-partai .item:hover img,
+    .list-caleg .item:hover img{
+        width: 110%;
+        height: 110%;
+    }
+    .list-partai .item h4,
+    .list-caleg .item h4{
+        font-size: 14px;
+        line-height: 100%;
+        position: absolute;
+        bottom: 30px;
+        left: 0;
+        width: 100%;
+        transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        padding: 0 20px;
+    }
+    .list-partai .item h4 a,
+    .list-caleg .item h4 a{
+        color: #333;
+    }
+    .list-partai .item h4 a:hover,
+    .list-caleg .item h4 a:hover{
+        color: #2767AF;
+    }
+    .list-partai .item figure,
+    .list-caleg .item figure{
+        margin-bottom: 30px;
+    }
+    .list-partai .item figure img{
+        object-fit: contain;
+    }
+    .list-caleg .item h4 span{
+        width: 100%;
+        float: left;
+        margin-top: 10px;
+        font-size: 12px;
+        color: #777;
+        font-weight: 400;
+    }
+    .list-caleg .item{
+        margin-bottom: 30px;
+    }
+    .alpha-filter{
+        width: 100%;
+        float: left;
+        margin-bottom: 30px;
+    }
+    .alpha-filter a{
+        width: calc(100% / 26);
+        float: left;
+        text-align: center;
+        height: 43px;
+        background: #f4f4f4;
+        padding-top: 9px;
+        color: #333;
+        font-weight: 700;
+    }
+    .alpha-filter a:nth-child(even){
+        background: #e1e1e1;
+    }
+    .alpha-filter a.active{
+        color: #fff;
+        background: #292A63;
+    }
+    .alpha-filter a:hover{
+        background: #2767AF;
+        color: #fff;
+    }
+/*PARTAI END*/

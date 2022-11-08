@@ -147,6 +147,31 @@ jQuery(function($) {
 
 		});
 
+	//Detail Foto slide
+	$(".dt-foto-slider").owlCarousel({
+		loop:true,
+		autoplay:true,
+		autoplayHoverPause:true,
+		nav:false,
+		margin:0,
+		loop:false,
+		dots:true,
+		mouseDrag:true,
+		touchDrag:true,
+		slideSpeed:500,
+		navText: ["<i class='fa fa-angle-left'></i>", "<i class='fa fa-angle-right'></i>"],
+		items : 1,
+		responsive:{
+		  0:{
+				items:1
+		  },
+		  600:{
+				items:1
+		  }
+		}
+
+	});
+
 	/*======================== 
         trending topics 
    ==========================*/

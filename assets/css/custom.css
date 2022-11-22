@@ -830,6 +830,16 @@ h3.post-subtitle i{
 .extra-news h2.post-title{
     font-size: 16px;
 }
+.media-group{
+    padding: 20px 0;
+}
+.media-group .container{
+    background: #f4f4f4;
+    padding: 40px 0;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
 
 
 

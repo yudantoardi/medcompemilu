@@ -210,7 +210,7 @@ jQuery(function($) {
 	if ($('#fullbox-slider').length > 0) {
 		$('#fullbox-slider').owlCarousel({
 			nav: false,
-			items: 4,
+			items: 3,
 			margin: 0,
 			reponsiveClass: true,
 			dots: false,
@@ -231,7 +231,7 @@ jQuery(function($) {
 				},
 				// breakpoint from 768 up
 				1200: {
-					items: 4,
+					items: 3,
 				}
 			}
 		});

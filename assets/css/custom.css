@@ -186,6 +186,19 @@ h3.post-subtitle i{
     float: left;
 }
 
+.for-mobile{
+    display: none;
+}
+
+@media (max-width: 768px){
+    .for-desktop{
+        display: none;
+    }
+    .for-mobile{
+        display: block;
+    }
+}
+
 @media (min-width: 768px) {
     .col-sm-5ths {
         width: 20%;
